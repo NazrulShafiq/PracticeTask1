@@ -18,6 +18,7 @@
 INPUT_FILES=(
     ../2_analysis/output/*.jpg 
     ../2_analysis/output/table_reg.tex 
+    ../2_analysis/output/table_reg_cluster_year.tex
     # Add more input paths as needed
 )
 

@@ -1,9 +1,9 @@
 
-Script my_shell_script.sh in zsh started at 2026-07-02 18:29:17
+Script my_shell_script.sh in zsh started at 2026-07-02 18:41:42
 Hello world!
-Script my_shell_script.sh finished successfully at 2026-07-02 18:29:17
+Script my_shell_script.sh finished successfully at 2026-07-02 18:41:42
 
-Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-02 18:29:17
+Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-02 18:41:42
 Rc files read (in order):
   NONE
 Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
@@ -143,10 +143,13 @@ No file my_project.bbl.
 (../input/table_reg.tex)
 Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--118
  [][] 
+(../input/table_reg_cluster_year.tex)
+Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--127
+ [][] 
 
 Package natbib Warning: There were undefined citations.
 
-[7] (./my_project.aux)
+[7] [8] (./my_project.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -160,7 +163,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on my_project.pdf (7 pages, 898442 bytes).
+Output written on my_project.pdf (8 pages, 899526 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -323,10 +326,13 @@ ne 55.
 figure_hwy.jpg>] (../input/table_reg.tex)
 Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--118
  [][] 
+(../input/table_reg_cluster_year.tex)
+Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--127
+ [][] 
 
 Package natbib Warning: There were undefined citations.
 
-[8] (./my_project.aux
+[8] [9] (./my_project.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -345,7 +351,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 902729 bytes).
+Output written on my_project.pdf (9 pages, 903798 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -493,7 +499,10 @@ exlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/20
 (../input/table_reg.tex)
 Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--118
  [][] 
-[8] (./my_project.aux) )
+(../input/table_reg_cluster_year.tex)
+Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--127
+ [][] 
+[8] [9] (./my_project.aux) )
 (see the transcript file for additional information)</usr/local/texlive/2026/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf
@@ -503,7 +512,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 902151 bytes).
+Output written on my_project.pdf (9 pages, 903223 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -517,9 +526,9 @@ Latexmk: Found bibliography file(s):
   ./my_project.bib
 Latexmk: All targets (my_project.pdf) are up-to-date
 
-Script my_project.tex finished successfully at 2026-07-02 18:29:19
+Script my_project.tex finished successfully at 2026-07-02 18:41:44
 
 The following files were created in my_project.tex:
 my_project.pdf 
 
-make.sh finished at 2026-07-02 18:29:19
+make.sh finished at 2026-07-02 18:41:44

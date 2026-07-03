@@ -1,9 +1,9 @@
 
-Script my_shell_script.sh in zsh started at 2026-07-02 18:29:13
+Script my_shell_script.sh in zsh started at 2026-07-02 18:41:39
 Hello world!
-Script my_shell_script.sh finished successfully at 2026-07-02 18:29:14
+Script my_shell_script.sh finished successfully at 2026-07-02 18:41:39
 
-Script analyze_data.r in Rscript started at 2026-07-02 18:29:14
+Script analyze_data.r in Rscript started at 2026-07-02 18:41:39
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.2.1     ✔ readr     2.2.0
 ✔ forcats   1.0.1     ✔ stringr   1.6.0
@@ -20,9 +20,17 @@ Please cite as:
  Hlavac, Marek (2022). stargazer: Well-Formatted Regression and Summary Statistics Tables.
  R package version 5.2.3. https://CRAN.R-project.org/package=stargazer 
 
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
 
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
-% Date and time: Thu, Jul 02, 2026 - 18:29:14
+% Date and time: Thu, Jul 02, 2026 - 18:41:39
 % Requires LaTeX packages: dcolumn 
 \begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -51,11 +59,42 @@ F Statistic & \multicolumn{1}{c}{408.248$^{***}$ (df = 1; 232)} & \multicolumn{1
 \hline \\[-1.8ex] 
 \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 \end{tabular} 
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Thu, Jul 02, 2026 - 18:41:40
+% Requires LaTeX packages: dcolumn 
+\begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Engine displacement (L)} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)}\\ 
+\hline \\[-1.8ex] 
+ City fuel economy (mpg) & -0.242^{***} &  & -0.233^{*} \\ 
+  & (0.022) &  & (0.125) \\ 
+  & & & \\ 
+ Highway fuel economy (mpg) &  & -0.166^{***} & -0.007 \\ 
+  &  & (0.005) & (0.077) \\ 
+  & & & \\ 
+ Constant & 7.558^{***} & 7.368^{***} & 7.565^{***} \\ 
+  & (0.522) & (0.307) & (0.450) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{234} & \multicolumn{1}{c}{234} & \multicolumn{1}{c}{234} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.638} & \multicolumn{1}{c}{0.587} & \multicolumn{1}{c}{0.638} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.636} & \multicolumn{1}{c}{0.585} & \multicolumn{1}{c}{0.635} \\ 
+Residual Std. Error & \multicolumn{1}{c}{0.779 (df = 232)} & \multicolumn{1}{c}{0.832 (df = 232)} & \multicolumn{1}{c}{0.781 (df = 231)} \\ 
+F Statistic & \multicolumn{1}{c}{408.248$^{***}$ (df = 1; 232)} & \multicolumn{1}{c}{329.453$^{***}$ (df = 1; 232)} & \multicolumn{1}{c}{203.319$^{***}$ (df = 2; 231)} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
 Saving 7 x 7 in image
 Saving 7 x 7 in image
-Script analyze_data.r finished successfully at 2026-07-02 18:29:15
+Script analyze_data.r finished successfully at 2026-07-02 18:41:40
 
 The following files were created in analyze_data.r:
-figure_hwy.jpg 
+figure_hwy.jpg figure_city.jpg table_reg.tex table_reg_cluster_year.tex 
 
-make.sh finished at 2026-07-02 18:29:15
+make.sh finished at 2026-07-02 18:41:40
