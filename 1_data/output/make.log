@@ -1,9 +1,9 @@
 
-Script my_shell_script.sh in zsh started at 2026-07-02 17:13:09
+Script my_shell_script.sh in zsh started at 2026-07-02 18:29:13
 Hello world!
-Script my_shell_script.sh finished successfully at 2026-07-02 17:13:09
+Script my_shell_script.sh finished successfully at 2026-07-02 18:29:13
 
-Script wrangle_data.r in Rscript started at 2026-07-02 17:13:09
+Script wrangle_data.r in Rscript started at 2026-07-02 18:29:13
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.2.1     ✔ readr     2.2.0
 ✔ forcats   1.0.1     ✔ stringr   1.6.0
@@ -14,9 +14,6 @@ Script wrangle_data.r in Rscript started at 2026-07-02 17:13:09
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-Script wrangle_data.r finished successfully at 2026-07-02 17:13:10
+Script wrangle_data.r finished successfully at 2026-07-02 18:29:13
 
-The following files were created in wrangle_data.r:
-mpg.Rdata 
-
-make.sh finished at 2026-07-02 17:13:10
+make.sh finished at 2026-07-02 18:29:13

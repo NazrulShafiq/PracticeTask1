@@ -38,10 +38,10 @@ regression_table <- function(data) {
 }
 
 city_figure <- function(data) {
-  p <- ggplot(data, aes(x = displ, y = cty, color = year)) +
+  p <- ggplot(data, aes(x = displ, y = log(cty), color = year)) +
     geom_point() +
     xlab("Engine displacement (L)") +
-    ylab("City fuel economy (mpg)")
+    ylab("City fuel economy (log(mpg)")
   ggsave("../output/figure_city.jpg", plot = p)
 }
 
