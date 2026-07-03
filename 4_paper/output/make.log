@@ -1,9 +1,9 @@
 
-Script my_shell_script.sh in zsh started at 2026-07-02 18:41:42
+Script my_shell_script.sh in zsh started at 2026-07-02 19:02:48
 Hello world!
-Script my_shell_script.sh finished successfully at 2026-07-02 18:41:42
+Script my_shell_script.sh finished successfully at 2026-07-02 19:02:48
 
-Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-02 18:41:42
+Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-02 19:02:48
 Rc files read (in order):
   NONE
 Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
@@ -140,12 +140,7 @@ ne 55.
 [2] [3] [4]
 No file my_project.bbl.
 [5 <../input/figure_city.jpg>] [6 <../input/figure_hwy.jpg>]
-(../input/table_reg.tex)
-Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--118
- [][] 
-(../input/table_reg_cluster_year.tex)
-Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--127
- [][] 
+(../input/table_reg.tex) (../input/table_reg_cluster_year.tex)
 
 Package natbib Warning: There were undefined citations.
 
@@ -153,17 +148,15 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- )
-(see the transcript file for additional information)</usr/local/texlive/2026/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 899526 bytes).
+ )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
+ocal/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_project.pdf (8 pages, 899610 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -323,12 +316,8 @@ Package natbib Warning: Citation `Friedman1970' on page 2 undefined on input li
 ne 55.
 
 [2] [3] [4] (./my_project.bbl) [5] [6 <../input/figure_city.jpg>] [7 <../input/
-figure_hwy.jpg>] (../input/table_reg.tex)
-Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--118
- [][] 
-(../input/table_reg_cluster_year.tex)
-Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--127
- [][] 
+figure_hwy.jpg>] (../input/table_reg.tex) (../input/table_reg_cluster_year.tex)
+
 
 Package natbib Warning: There were undefined citations.
 
@@ -341,17 +330,15 @@ Package natbib Warning: Citation(s) may have changed.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- )
-(see the transcript file for additional information)</usr/local/texlive/2026/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on my_project.pdf (9 pages, 903798 bytes).
+ )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
+ocal/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_project.pdf (9 pages, 903874 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -496,23 +483,16 @@ ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
 exlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/20
 26/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] [4] (./my_project.bbl)
 [5] [6 <../input/figure_city.jpg>] [7 <../input/figure_hwy.jpg>]
-(../input/table_reg.tex)
-Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--118
- [][] 
-(../input/table_reg_cluster_year.tex)
-Overfull \hbox (81.12144pt too wide) in paragraph at lines 5--127
- [][] 
-[8] [9] (./my_project.aux) )
-(see the transcript file for additional information)</usr/local/texlive/2026/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on my_project.pdf (9 pages, 903223 bytes).
+(../input/table_reg.tex) (../input/table_reg_cluster_year.tex) [8] [9]
+(./my_project.aux) )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
+al/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_project.pdf (9 pages, 903297 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -526,9 +506,9 @@ Latexmk: Found bibliography file(s):
   ./my_project.bib
 Latexmk: All targets (my_project.pdf) are up-to-date
 
-Script my_project.tex finished successfully at 2026-07-02 18:41:44
+Script my_project.tex finished successfully at 2026-07-02 19:02:50
 
 The following files were created in my_project.tex:
 my_project.pdf 
 
-make.sh finished at 2026-07-02 18:41:44
+make.sh finished at 2026-07-02 19:02:50

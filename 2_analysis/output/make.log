@@ -1,9 +1,9 @@
 
-Script my_shell_script.sh in zsh started at 2026-07-02 18:41:39
+Script my_shell_script.sh in zsh started at 2026-07-02 19:02:44
 Hello world!
-Script my_shell_script.sh finished successfully at 2026-07-02 18:41:39
+Script my_shell_script.sh finished successfully at 2026-07-02 19:02:44
 
-Script analyze_data.r in Rscript started at 2026-07-02 18:41:39
+Script analyze_data.r in Rscript started at 2026-07-02 19:02:44
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.2.1     ✔ readr     2.2.0
 ✔ forcats   1.0.1     ✔ stringr   1.6.0
@@ -30,7 +30,7 @@ The following objects are masked from ‘package:base’:
 
 
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
-% Date and time: Thu, Jul 02, 2026 - 18:41:39
+% Date and time: Thu, Jul 02, 2026 - 19:02:45
 % Requires LaTeX packages: dcolumn 
 \begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -61,7 +61,7 @@ F Statistic & \multicolumn{1}{c}{408.248$^{***}$ (df = 1; 232)} & \multicolumn{1
 \end{tabular} 
 
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
-% Date and time: Thu, Jul 02, 2026 - 18:41:40
+% Date and time: Thu, Jul 02, 2026 - 19:02:45
 % Requires LaTeX packages: dcolumn 
 \begin{tabular}{@{\extracolsep{5pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 \\[-1.8ex]\hline 
@@ -92,9 +92,9 @@ F Statistic & \multicolumn{1}{c}{408.248$^{***}$ (df = 1; 232)} & \multicolumn{1
 \end{tabular} 
 Saving 7 x 7 in image
 Saving 7 x 7 in image
-Script analyze_data.r finished successfully at 2026-07-02 18:41:40
+Script analyze_data.r finished successfully at 2026-07-02 19:02:45
 
 The following files were created in analyze_data.r:
 figure_hwy.jpg figure_city.jpg table_reg.tex table_reg_cluster_year.tex 
 
-make.sh finished at 2026-07-02 18:41:40
+make.sh finished at 2026-07-02 19:02:45

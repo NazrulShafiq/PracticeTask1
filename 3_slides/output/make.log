@@ -1,9 +1,9 @@
 
-Script my_shell_script.sh in zsh started at 2026-07-02 18:41:40
+Script my_shell_script.sh in zsh started at 2026-07-02 19:02:46
 Hello world!
-Script my_shell_script.sh finished successfully at 2026-07-02 18:41:40
+Script my_shell_script.sh finished successfully at 2026-07-02 19:02:46
 
-Script my_project_slides.tex in latexmk -pdf -bibtex started at 2026-07-02 18:41:40
+Script my_project_slides.tex in latexmk -pdf -bibtex started at 2026-07-02 19:02:46
 Rc files read (in order):
   NONE
 Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
@@ -256,9 +256,11 @@ s/tikzlibrarytopaths.code.tex))))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/multirow/multirow.sty)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/xspace.sty)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 33.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./my_project_slides.aux)
@@ -286,22 +288,35 @@ No file my_project_slides.nav.
 [1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2026/texmf-dist/fonts/enc/dvips/inter/a_djwlf6.enc}] [2] [3]
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd) [4] [5]
-[6] [7] [8] [9] [10] [11] (./my_project_slides.aux)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd) [4]
+Overfull \vbox (10.34288pt too high) detected at line 65
+[5 <../input/figure_city.jpg>] [6] (../input/table_reg_cluster_year.tex)
+[7] [8] [9] [10] [11] (./my_project_slides.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 
 Package rerunfilecheck Warning: File `my_project_slides.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
- )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/inter/Inter-Bold.pfb><
-/usr/local/texlive/2026/texmf-dist/fonts/type1/public/inter/Inter-Regular.pfb>
-Output written on my_project_slides.pdf (11 pages, 85250 bytes).
+ )
+(see the transcript file for additional information)</usr/local/texlive/2026/te
+xmf-dist/fonts/type1/public/inter/Inter-Bold.pfb></usr/local/texlive/2026/texmf
+-dist/fonts/type1/public/inter/Inter-Italic.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/inter/Inter-Regular.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2026/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on my_project_slides.pdf (11 pages, 577243 bytes).
 Transcript written on my_project_slides.log.
 Latexmk: Getting log file 'my_project_slides.log'
 Latexmk: Examining 'my_project_slides.fls'
 Latexmk: Examining 'my_project_slides.log'
 Latexmk: Missing input file 'my_project_slides.nav' message in .log file:
   No file my_project_slides.nav.
+Latexmk: References changed.
 Latexmk: References changed.
 Latexmk: Log file says output to 'my_project_slides.pdf'
 Latexmk: applying rule 'pdflatex'...
@@ -553,9 +568,11 @@ s/tikzlibrarytopaths.code.tex))))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/multirow/multirow.sty)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/xspace.sty)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 33.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./my_project_slides.aux)
@@ -583,11 +600,19 @@ tionary-English.dict) (./my_project_slides.nav) [1{/usr/local/texlive/2026/texm
 f-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fo
 nts/enc/dvips/inter/a_djwlf6.enc}] [2] [3]
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd) [4] [5]
-[6] [7] [8] [9] [10] [11] (./my_project_slides.aux) )</usr/local/texlive/2026/t
-exmf-dist/fonts/type1/public/inter/Inter-Bold.pfb></usr/local/texlive/2026/texm
-f-dist/fonts/type1/public/inter/Inter-Regular.pfb>
-Output written on my_project_slides.pdf (11 pages, 85496 bytes).
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd) [4]
+Overfull \vbox (10.34288pt too high) detected at line 65
+[5 <../input/figure_city.jpg>] [6] (../input/table_reg_cluster_year.tex)
+[7] [8] [9] [10] [11] (./my_project_slides.aux) )
+(see the transcript file for additional information)</usr/local/texlive/2026/te
+xmf-dist/fonts/type1/public/inter/Inter-Bold.pfb></usr/local/texlive/2026/texmf
+-dist/fonts/type1/public/inter/Inter-Italic.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/inter/Inter-Regular.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2026/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on my_project_slides.pdf (11 pages, 577703 bytes).
 Transcript written on my_project_slides.log.
 Latexmk: Getting log file 'my_project_slides.log'
 Latexmk: Examining 'my_project_slides.fls'
@@ -595,9 +620,9 @@ Latexmk: Examining 'my_project_slides.log'
 Latexmk: Log file says output to 'my_project_slides.pdf'
 Latexmk: All targets (my_project_slides.pdf) are up-to-date
 
-Script my_project_slides.tex finished successfully at 2026-07-02 18:41:42
+Script my_project_slides.tex finished successfully at 2026-07-02 19:02:48
 
 The following files were created in my_project_slides.tex:
 my_project_slides.pdf 
 
-make.sh finished at 2026-07-02 18:41:42
+make.sh finished at 2026-07-02 19:02:48

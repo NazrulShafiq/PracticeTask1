@@ -15,6 +15,7 @@
 \usepackage{multirow} 
 \usepackage{xspace}
 \usepackage{booktabs}
+\usepackage{dcolumn}
 
 \setbeamercolor{normal text}{fg=mDarkTeal,bg=white}
 \definecolor{cardinalred}{rgb}{0.549, 0.082, 0.082}
@@ -49,17 +50,31 @@
 
 \section{Background}
 
-\begin{frame}{xxx}
+\begin{frame}{xxx} 
+    \begin{figure}[!htp]
+        \centering
+        \caption{\bf{Cibus in urbe}}
+        \label{fig:City}
 
-    xxx
+        \includegraphics[width = 0.45\textwidth]{../input/figure_city.jpg}
+
+        %\floatfoot{Note: Insert notes here.
+        %}
+    \end{figure}
   
 \end{frame}
 
 \section{Data}
 
 \begin{frame}{xxx}
-
-    xxx
+    \begin{table}[htp]
+        \centering
+        \caption{\bf{Multae stellae}}
+        \label{tab:regression_cluster_by_year}
+        \resizebox{0.98\textwidth}{!}{\input{../input/table_reg_cluster_year.tex}}
+        
+        %\floatfoot{Note: Insert notes here.}
+    \end{table}
   
 \end{frame}
 
