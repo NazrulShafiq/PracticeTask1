@@ -16,7 +16,9 @@
 #       "../examples/inputs_for_examples -> examples"
 # ==============================================================================
 INPUT_FILES=(
-    # /path/to/your/input/file.csv (replace with your actual input paths)
+    ../2_analysis/output/*.jpg 
+    ../2_analysis/output/table_reg.tex 
+    ../2_analysis/output/table_reg_cluster_year.tex
     # Add more input paths as needed
 )
 
